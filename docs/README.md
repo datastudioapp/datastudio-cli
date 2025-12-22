@@ -1,9 +1,9 @@
-# `dk`
+# `ds`
 
 **Usage**:
 
 ```console
-$ dk [OPTIONS] COMMAND [ARGS]...
+$ ds [OPTIONS] COMMAND [ARGS]...
 ```
 
 **Options**:
@@ -25,28 +25,28 @@ $ dk [OPTIONS] COMMAND [ARGS]...
 * `show`: Print a variable value
 * `view`: Render a view locally
 
-## `dk get-run`
+## `ds get-run`
 
 Get the active run
 
 **Usage**:
 
 ```console
-$ dk get-run [OPTIONS]
+$ ds get-run [OPTIONS]
 ```
 
 **Options**:
 
 * `--help`: Show this message and exit.
 
-## `dk init`
+## `ds init`
 
 Initialise a datakit run
 
 **Usage**:
 
 ```console
-$ dk init [OPTIONS] [RUN_NAME]
+$ ds init [OPTIONS] [RUN_NAME]
 ```
 
 **Arguments**:
@@ -57,14 +57,14 @@ $ dk init [OPTIONS] [RUN_NAME]
 
 * `--help`: Show this message and exit.
 
-## `dk load`
+## `ds load`
 
 Load data into configuration variable
 
 **Usage**:
 
 ```console
-$ dk load [OPTIONS] VARIABLE_NAME PATH
+$ ds load [OPTIONS] VARIABLE_NAME PATH
 ```
 
 **Arguments**:
@@ -76,14 +76,14 @@ $ dk load [OPTIONS] VARIABLE_NAME PATH
 
 * `--help`: Show this message and exit.
 
-## `dk new`
+## `ds new`
 
 Generate a new datakit and algorithm scaffold
 
 **Usage**:
 
 ```console
-$ dk new [OPTIONS] ALGORITHM_NAME
+$ ds new [OPTIONS] ALGORITHM_NAME
 ```
 
 **Arguments**:
@@ -94,7 +94,7 @@ $ dk new [OPTIONS] ALGORITHM_NAME
 
 * `--help`: Show this message and exit.
 
-## `dk reset`
+## `ds reset`
 
 Reset datakit to clean state
 
@@ -103,35 +103,35 @@ Removes all run outputs and resets configurations to default
 **Usage**:
 
 ```console
-$ dk reset [OPTIONS]
+$ ds reset [OPTIONS]
 ```
 
 **Options**:
 
 * `--help`: Show this message and exit.
 
-## `dk run`
+## `ds run`
 
 Execute the active run
 
 **Usage**:
 
 ```console
-$ dk run [OPTIONS]
+$ ds run [OPTIONS]
 ```
 
 **Options**:
 
 * `--help`: Show this message and exit.
 
-## `dk set`
+## `ds set`
 
 Set a variable value
 
 **Usage**:
 
 ```console
-$ dk set [OPTIONS] VARIABLE_REF VARIABLE_VALUE
+$ ds set [OPTIONS] VARIABLE_REF VARIABLE_VALUE
 ```
 
 **Arguments**:
@@ -143,14 +143,14 @@ $ dk set [OPTIONS] VARIABLE_REF VARIABLE_VALUE
 
 * `--help`: Show this message and exit.
 
-## `dk set-run`
+## `ds set-run`
 
 Set the active run
 
 **Usage**:
 
 ```console
-$ dk set-run [OPTIONS] [RUN_NAME]
+$ ds set-run [OPTIONS] [RUN_NAME]
 ```
 
 **Arguments**:
@@ -161,14 +161,14 @@ $ dk set-run [OPTIONS] [RUN_NAME]
 
 * `--help`: Show this message and exit.
 
-## `dk show`
+## `ds show`
 
 Print a variable value
 
 **Usage**:
 
 ```console
-$ dk show [OPTIONS] VARIABLE_NAME
+$ ds show [OPTIONS] VARIABLE_NAME
 ```
 
 **Arguments**:
@@ -179,14 +179,14 @@ $ dk show [OPTIONS] VARIABLE_NAME
 
 * `--help`: Show this message and exit.
 
-## `dk view`
+## `ds view`
 
 Render a view locally
 
 **Usage**:
 
 ```console
-$ dk view [OPTIONS] VIEW_NAME
+$ ds view [OPTIONS] VIEW_NAME
 ```
 
 **Arguments**:

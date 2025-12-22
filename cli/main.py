@@ -85,7 +85,7 @@ def get_active_run():
     try:
         return load_config()["run"]
     except FileNotFoundError:
-        print('[red]No active run is set. Have you run "dk init"?[/red]')
+        print('[red]No active run is set. Have you run "ds init"?[/red]')
         exit(1)
 
 
@@ -677,7 +677,7 @@ def set(
         if not resource:
             print(
                 f'[red]Parameter resource [bold]{resource.name}[/bold] "data" '
-                'field is empty. Try running "dk reset"?[/red]'
+                'field is empty. Try running "ds reset"?[/red]'
             )
             exit(1)
 

@@ -1,7 +1,7 @@
 [project]
-name = "datakitcli"
-version = "0.2.1"
-description = "A command line client for running datakits"
+name = "datastudio-cli"
+version = "0.2.2"
+description = "A command line client for running DataStudio Datakits"
 requires-python = ">=3.11"
 authors = [
     { name = "Varvara Efremova", email = "varvara@echus.co" },
@@ -13,23 +13,19 @@ dependencies = [
     "docker >= 7.1.0, < 8",
     "matplotlib >= 3.9.1, < 4",
     "tornado",  # Required for rendering interactive plots
-    "datakitpy >= 0.2.1",
+    "datastudio-lib >= 0.2.2",
     "tabulate",
 ]
 
 [project.scripts]
-dk = "cli.main:app"
-
-[project.urls]
-"Homepage" = "https://github.com/opendatastudio/cli"
-"Bug Tracker" = "https://github.com/opendatastudio/cli/issues"
+ds = "datastudio-cli.main:app"
 
 [project.optional-dependencies]
 development = [
     "pre-commit",
     "build",
 ]
-all = ["datakitcli[development]"]
+all = ["datastudio-cli[development]"]
 
 [build-system]
 requires = ["setuptools>=61.0"]
