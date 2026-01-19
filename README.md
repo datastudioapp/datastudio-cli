@@ -1,8 +1,8 @@
-# opendata.studio datakit CLI
+# DataStudio datakit CLI
 
-A command line client for running datakits.
+A command line client for running DataStudio datakits.
 
-View usage documentation at [docs/README.md](https://github.com/opendatastudio/cli/blob/main/docs/README.md).
+Usage documentation can be found [here](https://docs.datastudioapp.com).
 
 
 ## Development
