@@ -18,6 +18,10 @@
         buildInputs = [
           pkgs.pre-commit
           pkgs.python311
+          # Build dependencies
+          pkgs.python311Packages.build
+          pkgs.python311Packages.twine
+          pkgs.python311Packages.packaging
           # Workaround for library linking issue on NixOS
           pkgs.python311Packages.matplotlib
         ];
