@@ -18,7 +18,7 @@ dependencies = [
 ]
 
 [project.scripts]
-ds = "datastudio-cli.main:app"
+ds = "datastudio_cli.main:app"
 
 [project.optional-dependencies]
 development = [
