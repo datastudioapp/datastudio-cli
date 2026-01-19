@@ -5,7 +5,7 @@ description = "A command line client for running DataStudio Datakits"
 requires-python = ">=3.11"
 authors = [
     { name = "Varvara Efremova", email = "varvara@echus.co" },
-    { name = "James Wilmot", email = "jameswilmot2000@gmail.com" },
+    { name = "James Wilmot", email = "james.wilmot@pm.me" },
 ]
 readme = "README.md"
 dependencies = [
