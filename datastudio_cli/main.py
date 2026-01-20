@@ -847,7 +847,7 @@ def new(
         "title": "New algorithm",
         "profile": "datakit-algorithm",
         "code": "algorithm.py",
-        "container": "datakits/python-run-base:latest",
+        "container": "datastudioapp/python-run-base:latest",
         "signature": {
             "inputs": [
                 {
