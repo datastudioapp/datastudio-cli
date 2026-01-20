@@ -15,6 +15,7 @@ from typing_extensions import Annotated
 from rich import print
 from rich.panel import Panel
 from tabulate import tabulate
+from docker.errors import DockerException
 from datakitpy.datakit import (
     ExecutionError,
     ResourceError,
@@ -43,7 +44,11 @@ from datakitpy.helpers import find_by_name, find
 app = typer.Typer(no_args_is_help=True)
 
 
-client = docker.from_env()
+try:
+    client = docker.from_env()
+except DockerException:
+    print('[red]Docker initialisation failed. Is Docker running?[/red]')
+    quit()
 
 
 # Assume we are always at the datakit root
